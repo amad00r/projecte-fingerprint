@@ -8,7 +8,7 @@ Si has arribat a aquesta pàgina és molt segur que a l'insti t'hagin assignat d
 ## Recomanació
 La meva recomanació és que comencis adquirint uns coneixements bàsics sobre les plaques Arduino i com programar-les ([videos per a obtenir la base](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)). Si estàs cursant 2n bat és possible que ja hagis fet Arduino i informàtica abans, i ja tinguis la meitat de la feina feta.
 
-A partir d'aquí, és una bona idea revisar [el repositori de la llibreria del sensor](https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library), l'esquema elèctric del projecte (schema.png), i la documentació dels arxius de codi d'aquest repositori.
+A partir d'aquí, és una bona idea revisar [el repositori de la llibreria del sensor](https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library), l'esquema elèctric del projecte (diagram.png), i la documentació dels arxius de codi d'aquest repositori.
 
 ## TO DO
 * Afegir la funcionalitat d'esborrar la memòria del sensor amb un polsador o commutador sense necessitat d'un script independent.
