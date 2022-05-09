@@ -29,10 +29,12 @@ int id;
 void setup() {
   /*
    * Definim el pin 5 com a sortida que donarà senyal al relé, que deixarà passar CC 12V a l'electroimant que obre la porta.
+   * Definim el pin 7 com a entrada de senyal connectat al commutador per a determinar si el sistema es troba en mode de llegir o guardar empremtes.
    * Definim el pin 9 com a sortida de senyal que encen un díode LED.
    * Definim el pin 10 com a sortida de senyal que encen l'altre díode LED.
    */
-  pinMode(5, OUTPUT); 
+  pinMode(5, OUTPUT);
+  pinMode(7, INPUT);
   pinMode(9, OUTPUT);
   pinMode(10, OUTPUT);
 
