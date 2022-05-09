@@ -29,7 +29,7 @@ int id;
 void setup() {
   /*
    * Definim el pin 5 com a sortida que donarà senyal al relé, que deixarà passar CC 12V a l'electroimant que obre la porta.
-   * Definim el pin 7 com a entrada de senyal connectat al commutador per a determinar si el sistema es troba en mode de llegir o guardar empremtes.
+   * Definim el pin 7 com a entrada de senyal connectat al commutador per a determinar si el sistema es troba en mode de detectar o guardar empremtes.
    * Definim el pin 9 com a sortida de senyal que encen un díode LED.
    * Definim el pin 10 com a sortida de senyal que encen l'altre díode LED.
    */
@@ -80,8 +80,7 @@ bool check_pin7() {
  *
  * @return true si ha tingut éxit, i false si no n'ha tingut o ha succeït algun error.
  */
-uint8_t fingerprint_enroll() { 
-
+uint8_t fingerprint_enroll() {
   /**
    * Variable privada de la funció que emmagatzema les senyals de confirmació i error de les 
    * diferents funcions de l'objecte finger que s'executaran.
