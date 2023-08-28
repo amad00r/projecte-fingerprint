@@ -28,15 +28,13 @@ void setup() {
 
     finger.begin(57600);
 
-    bool verify = finger.verifyPassword();
-    while(verify != true) {
+    while (!finger.verifyPassword()) {
         Serial.println("No s'ha trobat el sensor :(");
         delay(1000);
     }
     Serial.println("S'ha trobat el sensor!\n\n");
-
-    int empty_verify = finger.emptyDatabase();
-    while(empty_verify != FINGERPRINT_OK) {
+    
+    while (finger.emptyDatabase() != FINGERPRINT_OK) {
         Serial.println("No s'ha pogut esborrar la memòria :(");
         delay(1000);
     }
